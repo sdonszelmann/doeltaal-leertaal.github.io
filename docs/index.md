@@ -1,5 +1,4 @@
 ---
-layout: default
 title: Doeltaal Leertaal
 ---
 
@@ -10,14 +9,21 @@ Vragen of suggesties kunt u naar [info@doeltaal-leertaal.nl](mailto://info@doelt
 
 
 <script>
-document.getElementById("header").remove();
 
+document.onload = () => {
+	document.getElementById("header").remove();
 
-setInterval(() => {
-	// Theme licensed under creative commons so this is allowed.
-	for(const i of document.getElementsByClassName("credits")) {
-		i.remove();
+	function remove_subtitle() {
+		for(const i of document.getElementsByClassName("credits")) {
+			i.remove();
+		}
 	}
 
-}, 5000)
+
+	remove_subtitle();
+	setInterval(() => {
+		// Theme licensed under creative commons so this is allowed.
+		remove_subtitle();
+	}, 1000)
+}
 </script>
