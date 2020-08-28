@@ -7,3 +7,8 @@ title: Doeltaal Leertaal
 
 Vragen of suggesties kunt u naar [info@doeltaal-leertaal.nl](mailto://info@doeltaal-leertaal.nl) sturen.
 
+
+
+<script>
+document.getElementById("header").remove()
+</script>
