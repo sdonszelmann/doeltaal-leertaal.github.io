@@ -1,4 +1,4 @@
 <title>Doeltaal Leertaal</title>
 
-Vragen of suggesties kunnen naar [info@doeltaal-leertaal.nl](mailto://info@doeltaal-leertaal.nl) gestuurd worden.
+Vragen of suggesties kunt u naar [info@doeltaal-leertaal.nl](mailto://info@doeltaal-leertaal.nl) sturen.
 
