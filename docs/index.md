@@ -10,20 +10,16 @@ Vragen of suggesties kunt u naar [info@doeltaal-leertaal.nl](mailto://info@doelt
 
 <script>
 
-document.onload = () => {
-	document.getElementById("header").remove();
+document.getElementById("header").remove();
 
-	function remove_subtitle() {
-		for(const i of document.getElementsByClassName("credits")) {
-			i.remove();
+function remove_subtitle() {
+	for(let i = 0; i < 10; i++) {
+		for(let j of document.getElementsByClassName("credits")) {
+			j.remove();
 		}
 	}
-
-
-	remove_subtitle();
-	setInterval(() => {
-		// Theme licensed under creative commons so this is allowed.
-		remove_subtitle();
-	}, 1000)
 }
+
+
+remove_subtitle();
 </script>
