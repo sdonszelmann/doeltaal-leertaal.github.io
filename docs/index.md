@@ -1,2 +1,2 @@
-<center> ## Doeltaal-leertaal </center>
+# Doeltaal-leertaal
 
