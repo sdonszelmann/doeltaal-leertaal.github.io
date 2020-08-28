@@ -10,5 +10,11 @@ Vragen of suggesties kunt u naar [info@doeltaal-leertaal.nl](mailto://info@doelt
 
 
 <script>
-document.getElementById("header").remove()
+document.getElementById("header").remove();
+
+// Theme licensed under creative commons so this is allowed.
+for(const i of document.getElementsByClassName("credits")) {
+	i.remove();
+}
+
 </script>
