@@ -1,5 +1,5 @@
 ---
-title: Doeltaal Leertaal
+title: Doeltaal-Leertaal
 ---
 
 ![Doeltaal Leertaal](./bookcover.png)
